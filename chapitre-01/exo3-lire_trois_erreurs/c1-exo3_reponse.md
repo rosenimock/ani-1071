@@ -12,7 +12,7 @@ PS C:\Users\USER>
 ```
 2-la ligne signalée
 
-. la ligne 3 du code
+. generalement la ligne suivante
 
 3-la ligne réellement fautive 
 
@@ -35,7 +35,7 @@ C:/msys64/ucrt64/include/stdio.h:400:15: note: 'printf' declared here
 ```      
 2-la ligne signalée
 
-. la ligne 3
+.la ligne fautive
 
 3-la ligne réellement fautive
 
@@ -51,7 +51,7 @@ PS C:\Users\USER\Desktop\ani-1071\chapitre-01\exo3-lire_trois_erreurs> clang++  
 ```
 2-la ligne signalée
 
-. la ligne 1 du code 
+. aucune
 
 3-la ligne réellement fautive
 
