@@ -1,4 +1,4 @@
-# identification de trois élement
+# identification de trois élements
 * l'édiquette main
 ```
 main:                                   # @main
