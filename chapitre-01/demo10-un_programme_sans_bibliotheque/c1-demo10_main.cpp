@@ -1,10 +1,6 @@
 int main() {
-    return ;
+    return 7;
 }
 
 
 
-#include <iostream>
-int main() { 
-    printf("bonjour");
-}
