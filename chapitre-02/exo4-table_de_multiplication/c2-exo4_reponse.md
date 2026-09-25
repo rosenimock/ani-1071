@@ -15,6 +15,6 @@ PS C:\Users\USER\Desktop\ani-1071\chapitre-02\exo4-table_de_multiplication> .\c2
    8|   8  16  24  32  40  48  56  64  72  80 
    9|   9  18  27  36  45  54  63  72  81  90 
   10|  10  20  30  40  50  60  70  80  90 100 
-   ```
+ ```
    # utilité de %4d dans printf
    elle sert a formater l'affichage d'un entier 
