@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#define LIGNE 3
-#define COLONNE 4
+#define LIGNE 12
+#define COLONNE 40
 
 int main() 
 {

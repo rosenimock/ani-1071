@@ -35,7 +35,7 @@ PS C:\Users\USER\Desktop\ani-1071\chapitre-02\exo1-le_rectangle_en_boucles> .\c2
  #        #  
  #  #  #  #  
 PS C:\Users\USER\Desktop\ani-1071\chapitre-02\exo1-le_rectangle_en_boucles> 
-```
+``` 
 
 # comparons 
 nombre de ligne : '24'
@@ -45,7 +45,7 @@ a la demonstration 2 du chapitre 1 c'etaite plutot 12 lignes donc la moitié
 - code 
 
 
- ```
+
      #include <stdio.h>
 
 #define LIGNE 12
