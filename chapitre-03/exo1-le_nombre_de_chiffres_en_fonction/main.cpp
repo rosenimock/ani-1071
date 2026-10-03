@@ -24,14 +24,23 @@ int main()
     int test3 = 1000;
     int test4 = -58;
     long long n;
-    printf("Le nombre %d a :%d chiffre(s).\n", test1, nombreDeChiffres(test1));
-    printf("Le nombre %d a :%d chiffre(s).\n", test2, nombreDeChiffres(test2));
-    printf("Le nombre %d a :%d chiffre(s).\n", test3, nombreDeChiffres(test3));
-    printf("Le nombre %d a :%d chiffre(s).\n", test4, nombreDeChiffres(test4));
+    int len ;
+
+    printf(" %d : %d \n", test1, nombreDeChiffres(test1));
+    printf(" %d : %d \n", test2, nombreDeChiffres(test2));
+    printf(" %d : %d \n", test3, nombreDeChiffres(test3));
+    printf(" %d : %d \n", test4, nombreDeChiffres(test4));
 
  printf("Entrez un nombre entier : ");
  scanf("%lld", & n);
- printf("Le nombre %lld a :%d chiffre(s).\n", n, nombreDeChiffres(n));
+ printf("%lld : %d \n", n, nombreDeChiffres(n));
+
+ len = nombreDeChiffres(n);
+ if(n==len)
+ {
+    printf("AUCUN\n");
+    
+ }
 
     return 0;
 }
