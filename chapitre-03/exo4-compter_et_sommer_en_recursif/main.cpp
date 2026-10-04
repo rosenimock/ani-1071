@@ -1,5 +1,5 @@
 #include <stdio.h>
-int chiffre_recursif(int n)
+int chiffreRecursif(int n)
 {
     if (n < 0)
     {
@@ -9,10 +9,10 @@ int chiffre_recursif(int n)
     {
         return 1;
     }
-    return 1 + chiffre_recursif(n / 10);
+    return 1 + chiffreRecursif(n / 10);
 }
 
-int somme_chiffre_recursif(int n)
+int sommeChiffreRecursif(int n)
 {
 if(n < 0)
 {
@@ -22,7 +22,7 @@ if(n < 10)
     {
         return n;
     }
-    return (n % 10) + somme_chiffre_recursif(n / 10);
+    return (n % 10) + sommeChiffreRecursif(n / 10);
 }
 
 int main(void)
@@ -32,8 +32,8 @@ int main(void)
     while(scanf("%d", &n) == 1)
     {
         i++;
-        printf("%d\n", chiffre_recursif(n));
-        printf("%d\n", somme_chiffre_recursif(n));
+        printf("%d\n", chiffreRecursif(n));
+        printf("%d\n", sommeChiffreRecursif(n));
     }
     if ( i==0 )
     {
