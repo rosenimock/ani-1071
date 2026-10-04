@@ -12,8 +12,8 @@ return res;
 }
 unsigned long long factorielle64(unsigned long long n)
 {
-    unsigned int res = 1;
-    unsigned int i= 2;
+    unsigned long long res = 1;
+    unsigned long long i= 2;
     while (i <= n)
     {
         res *= i;
